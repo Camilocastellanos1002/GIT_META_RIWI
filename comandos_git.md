@@ -26,7 +26,10 @@
     -git log --online   (muesta solo el id del commit)
 
 # comando para cambiar de version
-    - git checkout <id del commit o nombre de la rama>
+    - git checkout "id del commit o nombre de la rama"
+
+# comando para volver a la version actual 
+    -git checkout master (en linux), en windows no se
 
 # pasos para crear un version de nuestro codigo
     1. agregar todos los archivos al commit
