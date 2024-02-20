@@ -1,4 +1,4 @@
-# comandos de git
+## COMANDOS DE GIT
 
 # comando para ver la version de git
     - git -v
@@ -18,9 +18,23 @@
 # como iniciar git en un directorio
     - git init  
 
+#  ver el estado de los archivos, si no se han guardado los cambios 
+        - git status
+
+# comando para listar  las versiones de mi proyecto
+    -git log    (muestra autor, id del commit, fecha, hora)
+    -git log --online   (muesta solo el id del commit)
+
+# comando para cambiar de version
+    - git checkout <id del commit o nombre de la rama>
+
 # pasos para crear un version de nuestro codigo
     1. agregar todos los archivos al commit
         -git add .   (forma de agregar todos los archivos existentes en la carpeta sin importar la extension)
             (cuando no se encuentran agregados los archivos con color verde y letra U, al ser agregados cambia al estado A)
         -git add *.js (forma de agregar los archivos con extension .js)
         -git add index.js (forma de agregar un archivo en especifico)
+
+    2. tomar foto del codigo (crear una nueva version)
+        - git commit -m "Nombre del commit"
+    
