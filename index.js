@@ -3,7 +3,7 @@ const body = document.querySelector('body')
 const name = document.querySelector('#name')
 const doc = document.querySelector('#doc')
 
-version.textContent = 'Version 1'
+version.textContent = 'Version 3'
 
 const btn = document.querySelector('button')
 btn.addEventListener('click', e => {
