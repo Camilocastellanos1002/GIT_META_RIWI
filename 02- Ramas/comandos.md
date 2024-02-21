@@ -6,3 +6,6 @@
 # comando para cambiar a otra rama
     - git checkout nombre_rama_deseada
     - git switch nombre_rama_deseada
+
+# comando par combinar rama
+    - git merge nombre_rama_principal
