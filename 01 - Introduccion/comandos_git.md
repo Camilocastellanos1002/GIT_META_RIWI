@@ -40,4 +40,20 @@
 
     2. tomar foto del codigo (crear una nueva version)
         - git commit -m "Nombre del commit"
-    
+
+# Rama 
+    es la forma de la cual todos los participantes pueden modificar un proyecto, es crear diferentes contextos de este sobre el mismo repositorio
+        * desarrolla caracteristicas de manera aislada
+        * corregir errores
+        * independencia
+        * falicidad de combinar
+        * agilidad
+# que es un merge
+    proceso de integrar los cambios de una rama (fuente) en otra rama (destino) comando dos historiales de commits diferentes
+    "tome los cambios de la rama y los combine con otra de forma automatica"
+    se genera la union tanto de los cambios de los archivos como el historial de versiones
+
+# que es un conflicto
+    conflicto en git es cuando se han realizado cambios en el mismo segmento de un archivo y luego se intenta fusionar estas ramas con comando merge
+    (para decidir cual prevalece sobre cual, es de forma manual)
+
