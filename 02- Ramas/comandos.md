@@ -11,7 +11,7 @@
     - git switch nombre_rama_deseada
     - git checkout -b nombre_rama (forma de generar otra rama y cambia a dicha rama automanticamente)
 
-# Comando par combinar y/o unir ramas
+# Comando par combinar y/o unir rama
     - git merge nombre_rama_principal
 
 # Comando para generar commit y guardar cambios a archivos que se estaban haciendo seguimiento
