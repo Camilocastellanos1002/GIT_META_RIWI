@@ -9,3 +9,14 @@
 
 # Comando para eliminar una conexion remota 
     - git remote remove nombre_conexion
+
+# Nota
+    * antes de generar un push al remositorio de la nube se debe realizar un pull 
+    para traer los archivos existentes en este
+    * cuando se hace la conexion por primera vez se debe realizar un fetch inicialmente
+
+# Comando para Obtener archivos del repositorio de la conexion remota
+    - git pull nombre_conexion rama_del_reposiotorio
+
+# Comando para realizar un fetch con el repositiorio remoto
+    -git fetch nombre_conexion nombre_rama_del_repositorio
